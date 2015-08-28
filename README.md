@@ -1,6 +1,7 @@
 # node-teradata
 Simple node-jdbc wrapper for teradata with promisified functions
-** NOTE: I do not claim ownership of, and will not support the teradata jdbc drivers. This package is in no way endorsed by teradata
+
+**NOTE: I do not claim ownership of, and will not support the teradata jdbc drivers. This package is in no way endorsed by teradata**
 
 A simple module to make working with teradata connections in node easier. Most of the work is done by the awesome [node-jdbc](https://www.npmjs.com/package/jdbc) module. I have simply provided a wrapper to save some time. It allows you to run queries against a teradata database. This wrapper returns [bluebird](https://www.npmjs.com/package/bluebird) promises to avoid nested callbacks. This module mostly follows the [node-jdbc](https://www.npmjs.com/package/jdbc) syntax for executing queries.
 
