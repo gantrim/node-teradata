@@ -81,10 +81,10 @@ Make sure to change the url, username, password, and select query. You can also 
 
 [Teradata jdbc driver](http://downloads.teradata.com/download/connectivity/jdbc-driver)
 
-##Contribute
+## Contribute
 Pull requests are welcome and will probably result in quicker changes than issues. Issues are of course welcome, and I will respond ASAP.
 
-##License
+## License
 Module specific code licensed under [MIT](https://github.com/gantrim/node-teradata/blob/development/LICENSE)
 See Dependencies for included module licenses
 See [Teradata site](http://downloads.teradata.com/download/connectivity/jdbc-driver) for JDBC driver
