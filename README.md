@@ -74,8 +74,11 @@ Make sure to change the url, username, password, and select query. You can also 
 ```
 ##Dependencies
 [node-jdbc](https://www.npmjs.com/package/jdbc)
+
 [bluebird](https://www.npmjs.com/package/bluebird)
+
 [chalksay](https://www.npmjs.com/package/chalksay)
+
 [Teradata jdbc driver](http://downloads.teradata.com/download/connectivity/jdbc-driver)
 
 ##Contribute
