@@ -6,8 +6,20 @@ Simple node-jdbc wrapper for teradata with promisified functions
 A simple module to make working with teradata connections in node easier. Most of the work is done by the awesome [node-jdbc](https://www.npmjs.com/package/jdbc) module. I have simply provided a wrapper to save some time. It allows you to run queries against a teradata database. This wrapper returns [bluebird](https://www.npmjs.com/package/bluebird) promises to avoid nested callbacks. This module mostly follows the [node-jdbc](https://www.npmjs.com/package/jdbc) syntax for executing queries.
 
 ## Setup 
-NOTE: 
-on OSX 10.10 with java 8.60 I had to set environment variable:
+Add  teradata jars to your Project:
+1. [Download Drivers](http://downloads.teradata.com/download/connectivity/jdbc-driver)
+2. Create a directory named "jars" at the root of your project
+3. Extract downloaded drivers
+4. Copy "tdgssconfig.jar" and "terajdbc4.jar" into the newly created jars directory
+
+
+Install module
+```
+npm install teradata
+```
+
+** NOTE: on OSX 10.10 with java 8.60 I had to set the CXX environment variable: **
+
 ```
 export CXX=gcc
 ```
@@ -15,11 +27,6 @@ export CXX=gcc
 then:
 ```
 npm rebuild
-```
-
-Install module
-```
-npm install teradata
 ```
 
 Include module:
