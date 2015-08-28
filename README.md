@@ -7,6 +7,7 @@ A simple module to make working with teradata connections in node easier. Most o
 
 ## Setup 
 Add  teradata jars to your Project:
+
 1. [Download Drivers](http://downloads.teradata.com/download/connectivity/jdbc-driver)
 2. Create a directory named "jars" at the root of your project
 3. Extract downloaded drivers
@@ -18,7 +19,7 @@ Install module
 npm install teradata
 ```
 
-** NOTE: on OSX 10.10 with java 8.60 I had to set the CXX environment variable: **
+**NOTE: on OSX 10.10 with java 8.60 I had to set the CXX environment variable:**
 
 ```
 export CXX=gcc
