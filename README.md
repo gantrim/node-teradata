@@ -72,7 +72,8 @@ Make sure to change the url, username, password, and select query. You can also 
              return Teradata.disconnect();
         });  
 ```
-##Dependencies
+
+## Dependencies
 [node-jdbc](https://www.npmjs.com/package/jdbc)
 
 [bluebird](https://www.npmjs.com/package/bluebird)
