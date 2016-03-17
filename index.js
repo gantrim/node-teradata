@@ -1,3 +1,3 @@
-var Teradata = require("./lib/teradata");
+var Teradata = require("./lib/Teradata");
 module.exports = Teradata;
 
