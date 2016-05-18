@@ -48,7 +48,7 @@ You can also specify some options when connecting:
 ```
 var options = {
     verbose: true,
-    teradataJarPath: "[path-to...]/teradata-jdbc-drivers/"
+    teradataJarPath: "[path-to-teradata-jdbc-drivers-directory]"
 };
 Teradata.connect('[url]' ,'[user]', '[password]')
     .then(function () {    
