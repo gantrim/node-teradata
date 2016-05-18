@@ -56,6 +56,7 @@ Teradata.connect('[url]' ,'[user]', '[password]')
      });
 ```
 verbose: turns on logging within the teradata package. can be useful for debugging
+
 teradataJarPath: Allows you to store your downloaded Teradata JDBC jars somewhere other than the root of your project directory
 
 Disconnect:
