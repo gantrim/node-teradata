@@ -50,7 +50,10 @@ var options = {
     verbose: true,
     teradataJarPath: "[path-to...]/teradata-jdbc-drivers/"
 };
-Teradata.connect('[url]' ,'[user]', '[password]')     
+Teradata.connect('[url]' ,'[user]', '[password]')
+    .then(function () {    
+        // you are now connected
+     });
 ```
 verbose: turns on logging within the teradata package. can be useful for debugging
 teradataJarPath: Allows you to store your downloaded Teradata JDBC jars somewhere other than the root of your project directory
