@@ -13,6 +13,7 @@ Add  teradata jars to your Project:
 3. Extract downloaded drivers
 4. Copy "tdgssconfig.jar" and "terajdbc4.jar" into the newly created jars directory
 
+** Alternatively you can make use of the teradataJarPath option and store your jars wherever you like
 
 Install module
 ```
@@ -42,6 +43,17 @@ Teradata.connect('[url]' ,'[user]', '[password]')
         // you are now connected
      });
 ```
+          
+You can also specify some options when connecting:
+```
+var options = {
+    verbose: true,
+    teradataJarPath: "[path-to...]/teradata-jdbc-drivers/"
+};
+Teradata.connect('[url]' ,'[user]', '[password]')     
+```
+verbose: turns on logging within the teradata package. can be useful for debugging
+teradataJarPath: Allows you to store your downloaded Teradata JDBC jars somewhere other than the root of your project directory
 
 Disconnect:
 ```
