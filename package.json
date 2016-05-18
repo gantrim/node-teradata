@@ -1,6 +1,6 @@
 {
   "name": "teradata",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Simple node-jdbc wrapper for teradata with promisified functions",
   "main": "index.js",
   "directories": {
